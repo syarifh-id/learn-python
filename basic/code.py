@@ -1,1 +1,3 @@
-print("syarif")
+data = input()
+
+print(data)
