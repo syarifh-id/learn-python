@@ -22,3 +22,4 @@ print("type of this variable is ",type(i)) # to show the type of data
 name, age, gender = "syarif", 22, "male" #multiple assign variable
 
 print("my name is ",name," and my age ",age)
+
