@@ -22,4 +22,11 @@ print("warna kesukaan saya", favColor[0])
 # favColor[1] = "hitam" error
 #dictonary
 students = {"nama":"syarifh", "umur":23, "asal":"karanganyar"}
-print("nama saya", students["nama"],'saya berasal dari', students["asal"])
+print("nama saya", students["nama"],'saya berasal dari', students["asal"],"saya berumur",students["umur"])
+
+#set * mengacak data
+days = {"senin", "selasa", "rabu", "kamis", "jum'at", "sabtu", "ahad"}
+print("nama nama hari", days)
+
+#booelan
+mymind = True
