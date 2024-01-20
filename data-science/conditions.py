@@ -1,9 +1,9 @@
-# i = int(input("Masukkan Angka :4"))
+i = int(input("Masukkan Angka :"))
 
-# if i%2 == 0:
-# 	print('bilangan genap')
-# else :
-# 	print('bilangan ganjil')
+if i%2 == 0:
+	print('bilangan genap')
+else :
+	print('bilangan ganjil')
 
 
 nilai =int(input("masukkan nilai anda :"))
