@@ -16,6 +16,8 @@ print("Hobby saya yang saya sedang tekuni adalah",hobby[1])
 #list
 nilai = [9,8,7,9,7,6,7,6]
 print("nilai tertinggi saya", nilai[0])
+print("Jumlah mapel", len(nilai))
+print("data nilai ber-type", type(nilai))
 #tuple *immutable
 favColor = ("biru", "ungu", "jingga")
 print("warna kesukaan saya", favColor[0])
