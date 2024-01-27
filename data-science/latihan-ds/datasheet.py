@@ -20,7 +20,7 @@ data = pd.read_csv(dataPath)
 # bulanTerbanyak = data['Bulan'].value_counts().nlargest(12).index.tolist()
 # print(bulanTerbanyak)
 
-###### membersihkan data dari string yang tidak terpakai ########
+###### membersihkan data dari string yang tidak terpakai [Rp. .] ########
 data['Harga'] = data['Harga'].str.replace('[Rp.]', '', regex=True).str.replace('[.]', '', regex=True).astype(int)
 print(data['Harga'])
 
