@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sb
 
-dataPath = 'D:\my-code\learn-python\data-science\latihan-ds\mobil.csv'
+dataPath = 'D:\my-code\learn-python\data-science\latihan-ds\csv\mobil.csv'
 data = pd.read_csv(dataPath)
 
 # print(data)
