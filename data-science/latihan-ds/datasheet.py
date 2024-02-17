@@ -23,7 +23,6 @@ data = pd.read_csv(dataPath)
 ###### membersihkan data dari string yang tidak terpakai [Rp. .] ########
 data['Harga'] = data['Harga'].str.replace('[Rp.]', '', regex=True).str.replace('[.]', '', regex=True).astype(int)
 print(data['Harga'])
-
 # data['Pendapatan'] = data['Mobil Terjual'] * data['Harga']
 
 # bulanPendapatanTerbanyak = data.groupby('Bulan')['Pendapatan'].sum().idxmax()
